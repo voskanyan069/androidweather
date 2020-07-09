@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settings_background"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="SETTINGS"
+        android:fontFamily="@font/fredoka_one_regular"
+        android:textSize="50sp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textAlignment="center"
+        android:textColor="#f1dddd"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="10sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:text="Creator"
+            android:textSize="40sp"
+            android:textColor="#f1dddd"
+            android:fontFamily="@font/fredoka_one_regular" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Andranik Voskanyan"
+            android:textSize="20sp"
+            android:textColor="#f1dddd"
+            android:fontFamily="@font/fredoka_one_regular"
+            android:layout_marginBottom="10sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:text="Feedback"
+            android:textSize="40sp"
+            android:textColor="#f1dddd"
+            android:fontFamily="@font/fredoka_one_regular" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="andranik.voskanyan@realschool.am"
+            android:textSize="20sp"
+            android:textColor="#f1dddd"
+            android:fontFamily="@font/fredoka_one_regular"
+            android:layout_marginBottom="10sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:text="Source"
+            android:textSize="40sp"
+            android:textColor="#f1dddd"
+            android:fontFamily="@font/fredoka_one_regular" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://openweathermap.org/"
+            android:textSize="20sp"
+            android:textColor="#f1dddd"
+            android:fontFamily="@font/fredoka_one_regular"
+            android:layout_marginBottom="10sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:text="Version"
+            android:textSize="40sp"
+            android:textColor="#f1dddd"
+            android:fontFamily="@font/fredoka_one_regular" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.0.0"
+            android:textSize="20sp"
+            android:textColor="#f1dddd"
+            android:fontFamily="@font/fredoka_one_regular"
+            android:layout_marginBottom="10sp" />
+
+    </LinearLayout>
+</LinearLayout>

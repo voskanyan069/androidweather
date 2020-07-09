@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/weather_background"
+    android:orientation="vertical"
+    tools:context=".WeatherActivity">
+
+    <TextView
+        android:id="@+id/city_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/fredoka_one_regular"
+        android:padding="20sp"
+        android:textAlignment="center"
+        android:textColor="#f1dddd"
+        android:text="CITY"
+        android:textSize="50sp" />
+
+    <ListView
+        android:id="@+id/listOfElem"
+        tools:listitem="@layout/list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
