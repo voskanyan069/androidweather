@@ -64,7 +64,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="andranik.voskanyan@realschool.am"
+            android:text="andranik.voskanyan.gp@gmail.com"
             android:textSize="20sp"
             android:textColor="#f1dddd"
             android:fontFamily="@font/fredoka_one_regular"
